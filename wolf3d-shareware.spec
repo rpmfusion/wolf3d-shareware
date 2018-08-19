@@ -1,6 +1,6 @@
 Name:           wolf3d-shareware
 Version:        1.4
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Wolfenstein 3D shareware Episode
 Group:          Amusements/Games
 License:        Shareware
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 19 2018 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1.4-8
+- Rebuilt for Fedora 29 Mass Rebuild binutils issue
+
 * Fri Jul 27 2018 RPM Fusion Release Engineering <sergio@serjux.com> - 1.4-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
 
