@@ -10,6 +10,7 @@ Source1:        extract.c
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 BuildRequires:  dynamite-devel
+BuildRequires:  gcc
 Requires:       wolf4sdl-shareware
 
 %description
